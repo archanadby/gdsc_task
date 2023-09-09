@@ -1,0 +1,291 @@
+.nav, .navbar {
+    float: left;
+}
+.nav{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.navbar{
+    margin-left: 570px;
+}
+.navbar img {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.navbar a {
+    float: left;
+    color: rgb(118, 116, 116);
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.title {
+    width: 60%;
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chp {
+    width: 17%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tpic {
+    width: 37%;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.htext {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(118, 116, 116);
+}
+
+.button1 {
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(134, 134, 245);
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    border-radius: 6%;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+.tdiv {
+    width: auto;
+}
+
+.scr {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.scr img {
+    width: 35px;
+    padding: 0;
+}
+.know{
+    padding-top: 30px;
+}
+.know .know-1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(118, 116, 116);
+}
+
+.know .know-2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(118, 116, 116);
+    padding-bottom: 10px;
+}
+
+.know-img img {
+    width: 350px;
+    border: 3px solid rgb(253, 215, 144);
+    margin-left: 160px;
+    float: left;
+}
+
+.know-text {
+    float: left;
+    font-size: 26px;
+    text-align: right;
+    margin-right: 130px;
+    font-weight: 400;
+    color: rgb(110, 109, 109);
+    border-radius: 3%;
+    border-right: 10px solid rgba(66, 66, 216, 0.909);
+    padding: 15px 15px 15px 0px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.grid-1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    text-shadow: 1px 1px rgb(139, 137, 137);
+}
+
+.grid-2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    text-shadow: 1px 1px rgb(139, 137, 137);
+}
+.per{
+    padding-top: 70px ;
+}
+.per .per-1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 550;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(118, 116, 116);
+    padding-bottom: 10px;
+}
+
+
+.per-text {
+    float: left;
+    font-size: 26px;
+    margin-left: 140px;
+    font-weight: 400;
+    color: rgb(110, 109, 109);
+    border-radius: 3%;
+    border-left: 10px solid green;
+    padding: 15px 0px 15px 15px;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.per-img img {
+    width: 400px;
+    border: 3px solid rgb(2, 98, 2);
+    margin-right: 120px;
+    float: right;
+}
+
+.grid-3 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    text-shadow: 1px 1px rgb(139, 137, 137);
+}
+.gon{
+    padding-top: 70px ;
+}
+.gon .gon-1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(118, 116, 116);
+    padding-bottom: 10px;
+}
+
+.gon-img img {
+    width: 500px;
+    margin-left: 160px;
+    float: left;
+}
+
+.gon-text {
+    float: left;
+    font-size: 26px;
+    text-align: right;
+    margin-right: 100px;
+    font-weight: 400;
+    color: rgb(110, 109, 109);
+    border-radius: 3%;
+    border-right: 10px solid rgba(66, 66, 216, 0.909);
+    padding: 15px 15px 15px 0px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.circles {
+    display: grid;
+    align-items: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+    margin-left: 10px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 75px;
+}
+.cir-1, .cir-2, .cir-3, .cir-4{
+    position: relative;
+    text-align: center;
+    color: rgb(110, 109, 109);
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+}
+.centered {
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circles img{
+    width: 170px;
+}
+.cir-text{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(110, 109, 109);
+    margin-left: 10px;    
+    
+}
+ 
+
+  .faq{
+    margin-left: 450px;
+    width: 650px;
+    padding-bottom: 100px;
+  }
+.footer{
+    padding-top:120px;
+    background-image: linear-gradient(to right, rgb(225, 225, 245), rgb(85, 85, 255));
+    background-color: rgba(113, 174, 254, 0.975);
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+ .row{
+    display: grid;
+    align-items: left;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+}
+.img-ftr{
+    margin-left: 100px;
+    width: 400px;
+}
+.sign{
+    margin-left: 650px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic', 'Arial Narrow';
+    color: white;
+}
+p1, p2{
+    font-size: 20px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.head-faq{
+    margin-left: 700px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(110, 109, 109);
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 100px;
+}
